@@ -1,0 +1,57 @@
+body {
+    color: rgb(5, 77, 246);
+    background: black;
+    margin: 0px;
+    font-family: "Edu VIC WA NT Beginner";
+    margin-bottom: 100px;
+
+}
+
+header{
+    border-bottom: solid 4px rgba(150, 42, 9, 0.623);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(23, 110, 157);
+}
+
+.chamada{
+    background: rgba(235, 21, 21, 0.808);
+    padding-bottom: 80px;
+    padding-top: 50px;
+    display: flex;
+    justify-content:center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 30px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 2px solid rgb(56, 9, 44);
+}
